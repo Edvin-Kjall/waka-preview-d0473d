@@ -51,7 +51,7 @@
       }
     });
 
-    window.matchMedia("(min-width: 1181px)").addEventListener("change", (e) => {
+    window.matchMedia("(min-width: 1301px)").addEventListener("change", (e) => {
       if (e.matches) setOpen(false);
     });
   }
@@ -105,6 +105,73 @@
       });
     });
   });
+
+  /* --- Directory: category filter + text search ---------------------- */
+  const grid = document.querySelector("[data-dir-grid]");
+  if (grid) {
+    const items = Array.from(grid.querySelectorAll(".biz"));
+    const chips = Array.from(document.querySelectorAll("[data-filter]"));
+    const search = document.querySelector("[data-dir-search]");
+    const countEl = document.querySelector("[data-dir-count]");
+    const emptyEl = document.querySelector("[data-dir-empty]");
+    const resetBtn = document.querySelector("[data-dir-reset]");
+
+    let category = "all";
+    let query = "";
+
+    const apply = () => {
+      const needle = query.trim().toLowerCase();
+      let shown = 0;
+
+      for (const el of items) {
+        const matchCat = category === "all" || el.dataset.cat === category;
+        const matchText = !needle || (el.dataset.search || "").includes(needle);
+        const visible = matchCat && matchText;
+        el.hidden = !visible;
+        if (visible) shown += 1;
+      }
+
+      if (countEl) countEl.textContent = `Showing ${shown} of ${items.length} businesses`;
+      if (emptyEl) emptyEl.hidden = shown !== 0;
+      grid.hidden = shown === 0;
+    };
+
+    const selectChip = (target) => {
+      for (const c of chips) {
+        const on = c === target;
+        c.classList.toggle("is-on", on);
+        c.setAttribute("aria-pressed", String(on));
+      }
+    };
+
+    for (const chip of chips) {
+      chip.addEventListener("click", () => {
+        category = chip.dataset.filter;
+        selectChip(chip);
+        apply();
+      });
+    }
+
+    if (search) {
+      search.addEventListener("input", () => {
+        query = search.value;
+        apply();
+      });
+    }
+
+    if (resetBtn) {
+      resetBtn.addEventListener("click", () => {
+        query = "";
+        category = "all";
+        if (search) search.value = "";
+        selectChip(chips.find((c) => c.dataset.filter === "all") || null);
+        apply();
+        if (search) search.focus();
+      });
+    }
+
+    apply();
+  }
 
   /* --- Contact form: compose a mailto so a static site can still work  */
   const form = document.querySelector("[data-contact-form]");
