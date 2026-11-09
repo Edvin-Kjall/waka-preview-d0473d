@@ -1,0 +1,47 @@
+# WAKA
+
+> Kigali's original fitness and coworking club, founded in March 2014. Three clubs: WAKA Town (downtown), WAKA Kimihurura and WAKA Kibagabaga. WAKA also runs WAKA The FITTEST, Rwanda's national functional-fitness championship, and a recurring guided hike programme departing from WAKA Kimihurura.
+
+## Core facts
+
+- Legal name: WAKA Global Ltd
+- Founded: March 2014, Kigali, Rwanda
+- Founders: Jeannetta, Dennis Dybdal, Jon Wagner, Miruka Martin
+- Chief Executive: Ivan Munyengango
+- Mission: "We are pushing the boundaries of urban professional lifestyles in Africa by creating affordable, inspiring and quality spaces where people can work, exercise and stay connected with their communities."
+- Tagline: Empower life through fitness.
+- Location: Kigali, Rwanda (-1.9441, 30.0619)
+- Phone: +250 783 189 029
+- Email: info@wakaglobal.com
+- Instagram: https://www.instagram.com/wakaglobal/
+
+## Clubs
+
+- [WAKA Town](https://wakaglobal.com/locations/waka-town/) — Makuza Parking Building, 5th Floor, Downtown · Nyarugenge. Tel 0785 379 577.
+- [WAKA Kimihurura](https://wakaglobal.com/locations/waka-kimihurura/) — Papyrus House, 18 KG 674 St, Kimihurura · Gasabo. Tel 0794 106 015.
+- [WAKA Kibagabaga](https://wakaglobal.com/locations/waka-kibagabaga/) — KG 19 Avenue, Kibagabaga · Gasabo. Tel 0788 797 009.
+
+## What WAKA offers
+
+- Strength and conditioning gyms with free weights, racks, cardio and functional training areas.
+- Group classes, bootcamps and personal training.
+- Coworking: hot desks, semi-private desks, private offices and meeting rooms. Gym access is included with work memberships.
+- A café and event space at WAKA Town.
+- Guided hikes across Rwanda, typically 15,000 RWF per person, departing from WAKA Kimihurura.
+- WAKA The FITTEST: an annual three-division functional-fitness championship held at Zaria Court, Kigali. The 2026 edition carried a 16,600,000 RWF prize pool.
+
+## Payments
+
+Memberships can be paid online through the WAKA portal at https://waka.fitbase.rw/buy and event tickets through https://events.fitbase.rw/. Customers may also pay in person at any club — no card and no prior booking is required to walk in.
+
+## Key pages
+
+- [Locations](https://wakaglobal.com/locations/)
+- [Memberships](https://wakaglobal.com/memberships/)
+- [Training](https://wakaglobal.com/train/)
+- [Coworking](https://wakaglobal.com/work/)
+- [WAKA The FITTEST](https://wakaglobal.com/events/the-fittest/)
+- [WAKA Hikes](https://wakaglobal.com/events/hikes/)
+- [About](https://wakaglobal.com/about/)
+- [Contact](https://wakaglobal.com/contact/)
+- [FAQ](https://wakaglobal.com/faq/)
